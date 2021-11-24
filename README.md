@@ -12,7 +12,7 @@ Tiramisu - 29 <br>
 Margarita - 50<br>
 Goat cheese and arugula - 55<br>
 <br>
-total sum : 156 <br>
+total sum : 156 <br><br>
 
 simple way to demonstrate the service functionality (CLI, unit tests, other)<br>
 API <br>
@@ -22,4 +22,8 @@ using unittest<br>
 <br>
 *if there is a Different complexes for allergens
 
-*didnt write at python for two years, most of my work is was using javaScript ,server side with node.js mongodb.
+*I didn't write in python for two years, most of my work I was using javaScript, server-side with node.js MongoDB.<br>
+
+*I try to use APIRouter to split the code for files but unfortunately I was getting the next message: <br>
+
+Error loading ASGI app. Could not import module "main".
