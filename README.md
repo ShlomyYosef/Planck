@@ -1,42 +1,25 @@
 # Planck
 
-
-לפתח WEB סרוויס שחושף פעולות על התפריט
-אם קיים אלכוהול אז מעלה את רמת הסיכון על הביטוח 
-
-uvicorn temp.main:app --reload
-
-uvicorn main:app --reload
-
-שימוש ב schedule על מנת לעדכן כל יום בשעה 10:00
+<br>
+using schedule to update every day at 10:00 
+<br>
 https://schedule.readthedocs.io/en/stable/
+<br>
+order - prices  : <br>
+mineral water - 10 <br>
+Cola Zero - 12 <br>
+Tiramisu - 29 <br>
+Margarita - 50<br>
+Goat cheese and arugula - 55<br>
+<br>
+total sum : 156 <br>
 
-https://github.com/tiangolo/fastapi/issues/386
+simple way to demonstrate the service functionality (CLI, unit tests, other)<br>
+API <br>
+error logs<br>
+using unittest<br>
+<br>
+<br>
+*if there is a Different complexes for allergens
 
-prices  :
-mineral water - 10
-Cola Zero - 12 
-Tiramisu - 29
-Margarita - 50
-Goat cheese and arugula - 55
-
-total sum : 156 
-
-לרשום שלא פיצלתי את הקבצים כי לא נגעתי בפייתון שנה וחצי, הצלחתי בזמן מועט לעשות כל כך הרבה אם היה לי עוד זמן הייתי משתמש ברוטר לחלוקה נכונה ולקבצים
-, אני רגיל לעבוד בJS עם NODE.js ושם הייתי משתמש בrouter ומפצל לכמה קבצים ומחלקות כמו שצריך.
-
-
-Suggest a simple way to demonstrate the service functionality (CLI, unit tests, other)
- API ? 
-error logs
-API
-using unittest
-
-@app.get("/dessert/{dessert_id}")
-איך הוא יכול לשבור לי את הלינק, מקרי קצה וכו'?
-
-
-
-מה עוד הייתי עושה : 
-* להסתכל על תפריט אחר ולראות אם שם מגישים אלכוהול אז רמת הסיכון עולה 
-* מידע על אלרגנים וכו', האם למסעדה יש ללא גלוטון וכו'.
+*didnt write at python for two years, most of my work is was using javaScript ,server side with node.js mongodb.
